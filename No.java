@@ -1,12 +1,11 @@
-package exercicio1;
+package exercicio2;
 
 public class No {
-	int numero;
-	String cor;
-	No prox;
+	Motorista motorista;
+	No dir;
+	No esq;
 	
-	public No(int numero, String cor) {
-		this.numero = numero;
-		this.cor = cor;
+	public No(Motorista motorista) {
+		this.motorista = motorista;
 	}
 }
